@@ -55,9 +55,9 @@ void Robot::AutonomousInit() {
 
 void Robot::AutonomousPeriodic() {
   // tell us some details about our gyro
-  frc::SmartDashboard::PutNumber("Gyro Angle", my_gyro.GetAngle());
-  frc::SmartDashboard::PutNumber("Gyro Rotation Speed", my_gyro.GetRate());
-  m_autonomousCommand->Execute();
+  //frc::SmartDashboard::PutNumber("Gyro Angle", my_gyro.GetAngle());
+  //frc::SmartDashboard::PutNumber("Gyro Rotation Speed", my_gyro.GetRate());
+  //m_autonomousCommand->Execute();
 }
 
 void Robot::TeleopInit() {

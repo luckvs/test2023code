@@ -22,8 +22,8 @@ private:
     frc::ADXRS450_Gyro m_drive_gyro;
 
     // left
-    frc::Spark m_leftFront{0};
-    frc::Spark m_leftRear{1};
+    frc::Spark m_leftFront{4};
+    frc::Spark m_leftRear{5};
     frc::MotorControllerGroup m_controllerLeft{m_leftFront, m_leftRear};
 
     // right
@@ -42,6 +42,6 @@ public:
     void AutoMotivateBackward();
     void AutoMotivateRotate();
     void Stop();
-    bool CompareAngles(double x, double y, double epsilon);
+    //bool CompareAngles(double x, double y, double epsilon);
 
 };
